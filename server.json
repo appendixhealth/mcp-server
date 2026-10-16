@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.appendix/appendix",
+  "title": "Appendix",
+  "description": "Physician-reviewed medical opinions and prescriptions for AI agents.",
+  "repository": {
+    "url": "https://github.com/appendixhealth/mcp-server",
+    "source": "github",
+    "id": "1230165929"
+  },
+  "version": "1.1.0",
+  "websiteUrl": "https://appendix.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.appendix.com/mcp"
+    }
+  ]
+}
